@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="weather-icons-master/css/weather-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="weather-icons-master/css/weather-icons-wind.min.css">
+  <link rel="stylesheet" type="text/css" href="asset/style/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Météo</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Aide</a></li>
+      </ul>
+
+      <div class="hamburger-icon">
+        <span class="material-icons">menu</span>
+      </div>      
+    </nav>
+  </header>
+
+  <main>
+    <h1>Météo</h1>
+    <div class="searchBox">
+      <input id="city-input" class="searchInput" type="text" spellcheck="false" placeholder="Rechecher ma ville...">
+      <button id="search-button" class="searchButton" href="#">
+          <i class="material-icons">
+              search
+          </i>
+      </button>
+    </div>
+    <div id="weather-main-info"></div>
+    <div id="weather-main-info-more"></div>
+  </main>
+
+  <footer>
+    <p>© 2023 Weather website</p>
+  </footer>
+
+  <script src="asset/style/js/script.js"></script>
+</body>
+</html>
