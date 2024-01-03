@@ -33,16 +33,20 @@ Les informations apparaitront seulement si la ville renseignée est trouvée.
 
 #### Page d'acceuil 
 ![Alt text](img/page.png)
+
 Dans cette page vous retrouverez les éléments importants que l'on souhaite généralement retrouver lorsque qu'on obtenir des informations concernant la météo.
 
 #### Page des prévisions supplémentaires
 ![Alt text](img/prevision.png)
+
 Dans ces indications supplémentaires, on peut voir en détail les prévisions par heure et par jour.
 
 #### Demande de localisation
 ![Alt text](img/bloque.png)
+
 La page demande d'accéder à la localisation de l'utilisateur pour connaître la météo directement à sa position.
 
 #### Page contact
 ![Alt text](img/contact.png)
+
 Enfin l'utilisateur à la posibilité, en cas de problème ou autre, de nous contacter (non fonctionnel) via un formulaire
