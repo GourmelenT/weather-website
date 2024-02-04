@@ -15,8 +15,6 @@ Lorsque vous passez la souris sur ce bouton, un champ de texte apparait, et vous
 
 Quand vous cliquez ensuite sur le bouton pour rechercher ou que vous appuyez sur la touche "entrée", des informations sur la météo de la ville renseignée apparaitront.
 
-[Vidéo de démonstration](img/mov.mp4)
-
 Vous retrouverez en haut : le nom de la ville, la température actuelle, la météo (nuageux, pluvieux, dégagé...) ainsi que l'heure du lever et du coucher de soleil.
 
 Juste en dessous se trouvent la température ressentie, le taux d'humidité ainsi que la direction et la vitesse du vent.
